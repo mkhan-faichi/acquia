@@ -2,3 +2,7 @@
     outline: none;
     position: initial;
 }
+
+body #content {
+  background-color: #ffcccc;
+}
