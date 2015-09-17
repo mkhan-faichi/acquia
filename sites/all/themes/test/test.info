@@ -1,0 +1,17 @@
+name = test
+description = This is a sub-theme of theme Bartik, made by John for the web site example.com (red, responsive).
+package = Core
+version = VERSION
+core = 7.x
+base theme = bartik
+
+stylesheets[all][] = css/colors.css
+stylesheets[all][] = css/layout.css
+
+regions[content] = Content
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[header] = Header
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[footer] = Footer
